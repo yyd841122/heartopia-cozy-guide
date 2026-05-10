@@ -22,6 +22,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `script.js` &mdash; Small frontend interactions and table search
 - `README.md` &mdash; Project documentation
 - `docs/domain-launch-checklist.md` &mdash; Custom domain launch checklist and manual verification record
+- `docs/mvp-stage-summary-and-next-roadmap.md` &mdash; MVP stage summary and next roadmap
 
 ## How to Preview Locally
 
@@ -133,6 +134,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T028** &mdash; Adds a formal custom domain launch checklist under `docs/domain-launch-checklist.md`.
 - **T030** &mdash; Updates the custom domain launch checklist with confirmed apex and www domain accessibility status.
 - **T032** &mdash; Marks the remaining manually verified launch checklist items for footer, titles, FAQ, checklist, search, mobile navigation, and language selector behavior.
+- **T034** &mdash; Adds the MVP stage summary and next roadmap document to define the current project status, risks, and recommended next phases.
 
 ## Disclaimer
 
