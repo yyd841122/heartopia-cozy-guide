@@ -38,6 +38,14 @@ Then open:
 http://localhost:8000
 ```
 
+## Live Site
+
+- **Official**: [https://cozyguidehub.com](https://cozyguidehub.com)
+- **WWW**: [https://www.cozyguidehub.com](https://www.cozyguidehub.com)
+- **Backup (Cloudflare Pages)**: [https://heartopia-cozy-guide.pages.dev](https://heartopia-cozy-guide.pages.dev)
+
+Both apex and www domains are active with SSL enabled.
+
 ## Deployment
 
 This project can be deployed as a static site.
@@ -119,6 +127,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T017** &mdash; Fixes the language selector default state so English is shown by default while multilingual translation remains a preview-only feature. Validates localStorage values against the allowed language list, falls back to `en` for invalid or missing values, and shows the toast only when switching to a non-English language.
 - **T019** &mdash; Improves local desktop preview guidance and mobile navigation readability with responsive nav behavior, table readability checks, and language selector preservation.
 - **T021** &mdash; Improves mobile navigation labels and active state styling so NPC Gifts does not wrap awkwardly on small screens.
+- **T024** &mdash; Updates the project documentation with the official custom domain `https://cozyguidehub.com`, keeps the Cloudflare Pages URL as a backup, and records that both apex and www domains are active with SSL enabled.
 
 ## Disclaimer
 
