@@ -27,6 +27,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/real-data-collection-principles.md` &mdash; Principles for collecting, verifying, and publishing real game data.
 - `docs/manual-data-verification-workflow.md` &mdash; Manual workflow for verifying real game data before publishing.
 - `docs/real-data-field-schema.md` &mdash; Field schema design for future verified game data.
+- `templates/real-data-entry-template.md` &mdash; Manual data entry template for future verified game data.
 
 ## Sample Data Files
 
@@ -161,6 +162,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T046** &mdash; Adds the manual data verification workflow for real game data before any live verified data is published.
 - **T048** &mdash; Adds the real data field schema design before creating JSON data files or publishing verified game data.
 - **T050** &mdash; Adds sample JSON data files under `data/` for schema testing only; no real verified game data or fake codes are included.
+- **T052** &mdash; Adds a manual real data entry template for future candidate data records without publishing real game data.
 
 ## Disclaimer
 

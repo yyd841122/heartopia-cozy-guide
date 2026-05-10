@@ -124,7 +124,11 @@ favorite / neutral / avoid 不得随意推断。
 
 该模板用于人工记录，不代表要立即展示到网站。
 
-## 10. 与页面展示的关系
+## 10a. Data Entry Template
+
+Future candidate records should use `templates/real-data-entry-template.md` before being reviewed or published.
+
+## 11. 与页面展示的关系
 
 - confirmed 数据可以进入正式数据区
 - unverified 数据只能进入"线索/待验证"区域，或暂不展示
@@ -132,10 +136,10 @@ favorite / neutral / avoid 不得随意推断。
 - outdated 数据必须提示可能过期
 - removed 数据不应在普通用户页面继续展示
 
-## 11. 下一步建议
+## 12. 下一步建议
 
-- T047 设计真实数据字段结构
-- T048 创建 sample data JSON 草案
-- T049 创建真实数据录入模板
-- T050 选择第一类可人工录入的数据
-- T051 为首批数据创建 review checklist
+- T053 选择第一类可人工录入的数据
+- T054 创建数据 review checklist
+- T055 设计 placeholder 与 confirmed 数据分离方案
+- T056 设计 JSON 接入页面的安全方案
+- T057 创建第一批真实数据候选记录

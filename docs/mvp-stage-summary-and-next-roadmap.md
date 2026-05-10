@@ -116,9 +116,11 @@ Field schema should be finalized before any JSON files or real verified data are
 - T048 设计真实数据字段结构
 Sample JSON files are schema-testing placeholders only and are not connected to user-facing pages yet.
 
+Data entry templates should be used before any real candidate data is moved into JSON or user-facing pages.
+
 - T050 创建 sample data JSON 草案
-- T051 创建真实数据录入模板
-- T052 选择第一类可以人工录入的数据
+- T052 创建真实数据录入模板
+- T053 选择第一类可以人工录入的数据
 
 ### Phase 3：首批真实内容
 
