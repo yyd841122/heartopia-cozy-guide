@@ -81,4 +81,39 @@
       }
     });
   });
+
+  /* ---------- Language Selector ---------- */
+  var langSelects = document.querySelectorAll('.language-select');
+  if (langSelects.length) {
+    var saved = (function() {
+      try { return localStorage.getItem('heartopia-language'); } catch(e) { return null; }
+    })();
+    if (saved) {
+      langSelects.forEach(function(s) { s.value = saved; });
+    }
+    langSelects.forEach(function(sel) {
+      sel.addEventListener('change', function() {
+        var val = sel.value;
+        langSelects.forEach(function(s) { s.value = val; });
+        try { localStorage.setItem('heartopia-language', val); } catch(e) {}
+        showLangToast();
+      });
+    });
+  }
+
+  function showLangToast() {
+    var toast = document.createElement('div');
+    toast.className = 'language-toast';
+    toast.textContent = 'Language preview selected. Full translations will be added in a future version.';
+    document.body.appendChild(toast);
+    requestAnimationFrame(function() {
+      toast.classList.add('language-toast-show');
+    });
+    setTimeout(function() {
+      toast.classList.remove('language-toast-show');
+      setTimeout(function() {
+        if (toast.parentNode) toast.parentNode.removeChild(toast);
+      }, 300);
+    }, 3000);
+  }
 })();

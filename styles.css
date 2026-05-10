@@ -847,6 +847,51 @@ a:hover {
   margin: 0 auto;
 }
 
+/* ---------- Language Selector ---------- */
+.language-wrapper {
+  flex-shrink: 0;
+}
+
+.language-select {
+  font-family: inherit;
+  font-size: 0.82rem;
+  padding: 4px 8px;
+  border: 1px solid #D0CABE;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #3A4A5A;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.language-select:focus {
+  border-color: #6ABF8A;
+}
+
+.language-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: #3A4A5A;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  max-width: 90vw;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 200;
+  pointer-events: none;
+}
+
+.language-toast.language-toast-show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: #3A4A5A;

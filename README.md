@@ -70,6 +70,7 @@ This MVP includes:
 - Daily checklist page
 - Shared navigation
 - Basic table search
+- Language selector UI preview
 
 This MVP does **not** include:
 
@@ -82,6 +83,7 @@ This MVP does **not** include:
 - Comments
 - User accounts
 - Automated data updates
+- Full multilingual translations
 
 ## Data Policy
 
@@ -113,6 +115,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T008** &mdash; Added the Daily Checklist MVP page (`checklist.html`) with static checkbox groups, progress-saving placeholder, checklist data policy, and future tool plan.
 - **T009** &mdash; Runs a local full-site audit for navigation, search behavior, placeholder data safety, shared disclaimer, README accuracy, and deployment readiness.
 - **T010** &mdash; Prepares the static MVP for GitHub and static hosting deployment by cleaning README structure, deployment notes, data policy, and public project scope.
+- **T014** &mdash; Fixes FAQ navigation links to point to `index.html#faq`, adds `id="faq"` to the homepage FAQ section, confirms Checklist links already point to the standalone `checklist.html`, adds a language selector UI preview (English / 中文 / Русский / Français / 日本語 / 한국어) in the navigation bar of all pages, and implements a lightweight localStorage-based language preference with a toast notification. No full translations are included.
 
 ## Disclaimer
 
