@@ -131,6 +131,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T024** &mdash; Updates the project documentation with the official custom domain `https://cozyguidehub.com`, keeps the Cloudflare Pages URL as a backup, and records that both apex and www domains are active with SSL enabled.
 - **T026** &mdash; Updates page titles, meta descriptions, and footer site identity to use the official custom domain `https://cozyguidehub.com` while keeping the project clearly marked as a fan-made MVP.
 - **T028** &mdash; Adds a formal custom domain launch checklist under `docs/domain-launch-checklist.md`.
+- **T030** &mdash; Updates the custom domain launch checklist with confirmed apex and www domain accessibility status.
 
 ## Disclaimer
 

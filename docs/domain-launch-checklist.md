@@ -27,8 +27,8 @@
 
 ## 需要人工验证的线上检查
 
-- [ ] https://cozyguidehub.com 首页可打开
-- [ ] https://www.cozyguidehub.com 首页可打开
+- [x] https://cozyguidehub.com 首页可打开
+- [x] https://www.cozyguidehub.com 首页可打开
 - [ ] 首页 Footer 显示正式域名
 - [ ] Footer 保留 fan-made / not affiliated 声明
 - [ ] 浏览器标题显示 Cozy Guide Hub
@@ -39,6 +39,12 @@
 - [ ] NPC Gifts 搜索正常
 - [ ] 手机端导航正常
 - [ ] 语言选择器默认 English
+
+### 域名验证状态
+
+- `cozyguidehub.com`：已验证可访问，Cloudflare Pages 显示 Active / SSL enabled。
+- `www.cozyguidehub.com`：已验证可访问，Cloudflare Pages 显示 Active / SSL enabled。
+- `heartopia-cozy-guide.pages.dev`：保留为备用访问地址。
 
 ## 当前范围
 
