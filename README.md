@@ -141,6 +141,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T032** &mdash; Marks the remaining manually verified launch checklist items for footer, titles, FAQ, checklist, search, mobile navigation, and language selector behavior.
 - **T034** &mdash; Adds the MVP stage summary and next roadmap document to define the current project status, risks, and recommended next phases.
 - **T036** &mdash; Adds `sitemap.xml` and `robots.txt` for the official domain `https://cozyguidehub.com`.
+- **T039** &mdash; Adds Open Graph and Twitter Card text meta tags to all 7 HTML pages using the official domain `https://cozyguidehub.com`.
 
 ## Disclaimer
 
