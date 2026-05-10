@@ -119,6 +119,7 @@ a:hover {
   color: #5A6A7A;
   padding: 4px 0;
   position: relative;
+  white-space: nowrap;
 }
 
 .main-nav a::after {
@@ -143,6 +144,9 @@ a:hover {
   width: 100%;
   background: #6ABF8A;
 }
+
+.nav-full { display: inline; }
+.nav-short { display: none; }
 
 /* ---------- Hero ---------- */
 .hero {
@@ -927,17 +931,37 @@ a:hover {
     align-items: center;
   }
 
+  .nav-full { display: none; }
+  .nav-short { display: inline; }
+
   .main-nav {
     order: 3;
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     flex-wrap: nowrap;
+    gap: 4px;
+    padding: 6px 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
 
   .main-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main-nav a {
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 0.35rem 0.5rem;
+  }
+
+  .main-nav a.nav-active {
+    background: rgba(106, 191, 138, 0.14);
+    border-radius: 999px;
+  }
+
+  .main-nav a.nav-active::after {
     display: none;
   }
 
