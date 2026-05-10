@@ -132,6 +132,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T026** &mdash; Updates page titles, meta descriptions, and footer site identity to use the official custom domain `https://cozyguidehub.com` while keeping the project clearly marked as a fan-made MVP.
 - **T028** &mdash; Adds a formal custom domain launch checklist under `docs/domain-launch-checklist.md`.
 - **T030** &mdash; Updates the custom domain launch checklist with confirmed apex and www domain accessibility status.
+- **T032** &mdash; Marks the remaining manually verified launch checklist items for footer, titles, FAQ, checklist, search, mobile navigation, and language selector behavior.
 
 ## Disclaimer
 

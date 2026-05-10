@@ -29,22 +29,30 @@
 
 - [x] https://cozyguidehub.com 首页可打开
 - [x] https://www.cozyguidehub.com 首页可打开
-- [ ] 首页 Footer 显示正式域名
-- [ ] Footer 保留 fan-made / not affiliated 声明
-- [ ] 浏览器标题显示 Cozy Guide Hub
-- [ ] FAQ 链接正常
-- [ ] Checklist 页面正常
-- [ ] Recipes 搜索正常
-- [ ] Fish 搜索正常
-- [ ] NPC Gifts 搜索正常
-- [ ] 手机端导航正常
-- [ ] 语言选择器默认 English
+- [x] 首页 Footer 显示正式域名
+- [x] Footer 保留 fan-made / not affiliated 声明
+- [x] 浏览器标题显示 Cozy Guide Hub
+- [x] FAQ 链接正常
+- [x] Checklist 页面正常
+- [x] Recipes 搜索正常
+- [x] Fish 搜索正常
+- [x] NPC Gifts 搜索正常
+- [x] 手机端导航正常
+- [x] 语言选择器默认 English
 
 ### 域名验证状态
 
 - `cozyguidehub.com`：已验证可访问，Cloudflare Pages 显示 Active / SSL enabled。
 - `www.cozyguidehub.com`：已验证可访问，Cloudflare Pages 显示 Active / SSL enabled。
 - `heartopia-cozy-guide.pages.dev`：保留为备用访问地址。
+
+### 最终人工验收状态
+
+- 主域名 `https://cozyguidehub.com` 已确认可访问。
+- `www` 域名 `https://www.cozyguidehub.com` 已确认可访问。
+- 手机端导航已确认可用，`NPC Gifts` 在移动端已优化为 `NPC`。
+- FAQ、Checklist、Recipes、Fish、NPC Gifts 等核心入口已完成基础人工检查。
+- 当前站点仍为 fan-made MVP，真实游戏数据尚未接入。
 
 ## 当前范围
 
