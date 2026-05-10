@@ -25,6 +25,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/mvp-stage-summary-and-next-roadmap.md` &mdash; MVP stage summary and next roadmap
 - `docs/seo-phase-1-completion-note.md` &mdash; SEO Phase 1 completion note for sitemap, robots, and social meta verification.
 - `docs/real-data-collection-principles.md` &mdash; Principles for collecting, verifying, and publishing real game data.
+- `docs/manual-data-verification-workflow.md` &mdash; Manual workflow for verifying real game data before publishing.
 
 ## SEO Files
 
@@ -146,6 +147,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T039** &mdash; Adds Open Graph and Twitter Card text meta tags to all 7 HTML pages using the official domain `https://cozyguidehub.com`.
 - **T042** &mdash; Adds the SEO Phase 1 completion note documenting sitemap, robots, and Open Graph / Twitter meta verification.
 - **T044** &mdash; Adds real data collection principles before any verified game data is added to the site.
+- **T046** &mdash; Adds the manual data verification workflow for real game data before any live verified data is published.
 
 ## Disclaimer
 

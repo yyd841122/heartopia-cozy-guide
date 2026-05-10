@@ -109,10 +109,10 @@ SEO Phase 1 basic files completed:
 
 ### Phase 2：真实数据采集方案设计
 
-Phase 2 starts with real data collection principles before any live data is added.
+Real data must pass manual verification workflow before entering user-facing pages.
 
 - T044 设计真实数据采集原则
-- T045 设计人工验证流程
+- T046 设计真实数据人工验证流程
 - T046 设计数据字段结构
 - T047 创建 sample data JSON 草案
 - T048 设计真实数据录入模板
