@@ -26,6 +26,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/seo-phase-1-completion-note.md` &mdash; SEO Phase 1 completion note for sitemap, robots, and social meta verification.
 - `docs/real-data-collection-principles.md` &mdash; Principles for collecting, verifying, and publishing real game data.
 - `docs/manual-data-verification-workflow.md` &mdash; Manual workflow for verifying real game data before publishing.
+- `docs/real-data-field-schema.md` &mdash; Field schema design for future verified game data.
 
 ## SEO Files
 
@@ -148,6 +149,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T042** &mdash; Adds the SEO Phase 1 completion note documenting sitemap, robots, and Open Graph / Twitter meta verification.
 - **T044** &mdash; Adds real data collection principles before any verified game data is added to the site.
 - **T046** &mdash; Adds the manual data verification workflow for real game data before any live verified data is published.
+- **T048** &mdash; Adds the real data field schema design before creating JSON data files or publishing verified game data.
 
 ## Disclaimer
 
