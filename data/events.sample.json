@@ -1,0 +1,17 @@
+[
+  {
+    "id": "event_sample_001",
+    "type": "event",
+    "event_name": "Sample Seasonal Festival",
+    "start_date": null,
+    "end_date": null,
+    "region": "Unknown",
+    "summary": "Placeholder event for schema testing. No real event data.",
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as a real event."
+  }
+]

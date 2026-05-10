@@ -1,0 +1,44 @@
+[
+  {
+    "id": "checklist_sample_001",
+    "type": "checklist_item",
+    "title": "Sample task: check daily notices",
+    "category": "starter",
+    "is_general_tip": true,
+    "is_verified_game_task": false,
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as verified daily task."
+  },
+  {
+    "id": "checklist_sample_002",
+    "type": "checklist_item",
+    "title": "Sample task: talk to villagers",
+    "category": "social",
+    "is_general_tip": true,
+    "is_verified_game_task": false,
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as verified game task."
+  },
+  {
+    "id": "checklist_sample_003",
+    "type": "checklist_item",
+    "title": "Sample task: craft a tool",
+    "category": "crafting",
+    "is_general_tip": false,
+    "is_verified_game_task": false,
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as verified game task."
+  }
+]

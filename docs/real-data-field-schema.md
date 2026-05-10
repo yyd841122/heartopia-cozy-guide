@@ -300,10 +300,23 @@ verified_game_task 必须人工验证。
 
 当前 T048 不创建这些 JSON 文件。
 
+## 12a. Sample JSON Files
+
+T050 creates schema-testing sample JSON files under `data/`:
+
+- data/recipes.sample.json
+- data/fish.sample.json
+- data/npc-gifts.sample.json
+- data/codes.sample.json
+- data/checklist-items.sample.json
+- data/events.sample.json
+- data/materials.sample.json
+
+These files are not real game data. They are used only to validate field shape, placeholder handling, and future data migration planning.
+
 ## 13. 后续任务建议
 
-- T049 创建 sample data JSON 草案
-- T050 创建真实数据录入模板
+- T050 创建 real data entry template
 - T051 选择第一类可人工录入的数据
 - T052 创建数据 review checklist
 - T053 设计 placeholder 与 confirmed 数据分离方案

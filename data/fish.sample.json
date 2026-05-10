@@ -1,0 +1,36 @@
+[
+  {
+    "id": "fish_sample_001",
+    "type": "fish",
+    "name": "Sample Pond Fish",
+    "location": "Pond",
+    "time_window": "Any",
+    "weather": "Any",
+    "season": "Unknown",
+    "rarity": "Common",
+    "sell_value": null,
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as real fish data."
+  },
+  {
+    "id": "fish_sample_002",
+    "type": "fish",
+    "name": "Sample Rain Fish",
+    "location": "Ocean",
+    "time_window": "Unknown",
+    "weather": "Rain",
+    "season": "Unknown",
+    "rarity": "Uncommon",
+    "sell_value": null,
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as real fish data."
+  }
+]

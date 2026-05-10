@@ -28,6 +28,16 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/manual-data-verification-workflow.md` &mdash; Manual workflow for verifying real game data before publishing.
 - `docs/real-data-field-schema.md` &mdash; Field schema design for future verified game data.
 
+## Sample Data Files
+
+- `data/recipes.sample.json` — Placeholder recipe data for schema testing only.
+- `data/fish.sample.json` — Placeholder fish data for schema testing only.
+- `data/npc-gifts.sample.json` — Placeholder NPC gift data for schema testing only.
+- `data/codes.sample.json` — Schema-only code data with no real or fake codes.
+- `data/checklist-items.sample.json` — Placeholder checklist items for schema testing only.
+- `data/events.sample.json` — Placeholder event data for schema testing only.
+- `data/materials.sample.json` — Placeholder material data for schema testing only.
+
 ## SEO Files
 
 - `sitemap.xml` &mdash; Basic sitemap for the official domain.
@@ -150,6 +160,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T044** &mdash; Adds real data collection principles before any verified game data is added to the site.
 - **T046** &mdash; Adds the manual data verification workflow for real game data before any live verified data is published.
 - **T048** &mdash; Adds the real data field schema design before creating JSON data files or publishing verified game data.
+- **T050** &mdash; Adds sample JSON data files under `data/` for schema testing only; no real verified game data or fake codes are included.
 
 ## Disclaimer
 

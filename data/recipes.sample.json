@@ -1,0 +1,34 @@
+[
+  {
+    "id": "recipe_sample_001",
+    "type": "recipe",
+    "name": "Sample Cozy Soup",
+    "ingredients": ["Sample Ingredient A", "Sample Ingredient B"],
+    "unlock_hint": "Unknown",
+    "use_case": "Layout testing only",
+    "energy_value": null,
+    "sell_value": null,
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as real recipe."
+  },
+  {
+    "id": "recipe_sample_002",
+    "type": "recipe",
+    "name": "Sample Garden Snack",
+    "ingredients": ["Sample Leaf", "Sample Berry"],
+    "unlock_hint": "Unknown",
+    "use_case": "Layout testing only",
+    "energy_value": null,
+    "sell_value": null,
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as real recipe."
+  }
+]

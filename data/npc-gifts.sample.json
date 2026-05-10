@@ -1,0 +1,34 @@
+[
+  {
+    "id": "npc_gift_sample_001",
+    "type": "npc_gift",
+    "npc_name": "Sample Town Friend",
+    "favorite_gifts": ["Sample Flower"],
+    "neutral_gifts": ["Sample Snack"],
+    "avoid_gifts": ["Sample Trash"],
+    "friendship_note": "Loves flowers for morning visits.",
+    "unlock_hint": "Unknown",
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as real NPC gift data."
+  },
+  {
+    "id": "npc_gift_sample_002",
+    "type": "npc_gift",
+    "npc_name": "Sample Garden Neighbor",
+    "favorite_gifts": ["Sample Shell"],
+    "neutral_gifts": ["Sample Berry", "Sample Leaf"],
+    "avoid_gifts": ["Sample Rock"],
+    "friendship_note": "Enjoys collecting shells by the shore.",
+    "unlock_hint": "Unknown",
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as real NPC gift data."
+  }
+]

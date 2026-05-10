@@ -1,0 +1,15 @@
+[
+  {
+    "id": "code_schema_only",
+    "type": "code",
+    "code": null,
+    "reward": "No verified reward. Schema placeholder only.",
+    "status": "placeholder",
+    "last_checked": null,
+    "source_note": "Schema-only placeholder. Not a real code.",
+    "expiry_note": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not a real code. Do not attempt to redeem.",
+    "display_notes": "Do not display as an active or real code."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "material_sample_001",
+    "type": "material",
+    "name": "Sample Common Material",
+    "source_location": "Sample Forest",
+    "use_case": "Sample crafting",
+    "rarity": "Common",
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as real material data."
+  },
+  {
+    "id": "material_sample_002",
+    "type": "material",
+    "name": "Sample Craft Material",
+    "source_location": "Sample Mine",
+    "use_case": "Sample tool crafting",
+    "rarity": "Uncommon",
+    "status": "placeholder",
+    "source_note": "Placeholder sample for schema testing.",
+    "last_checked": null,
+    "verification_level": "unknown",
+    "verification_notes": "Not verified game data.",
+    "display_notes": "Do not publish as real material data."
+  }
+]

@@ -114,9 +114,11 @@ Field schema should be finalized before any JSON files or real verified data are
 - T044 设计真实数据采集原则
 - T046 设计真实数据人工验证流程
 - T048 设计真实数据字段结构
-- T049 创建 sample data JSON 草案
-- T050 创建真实数据录入模板
-- T051 选择第一类可以人工录入的数据
+Sample JSON files are schema-testing placeholders only and are not connected to user-facing pages yet.
+
+- T050 创建 sample data JSON 草案
+- T051 创建真实数据录入模板
+- T052 选择第一类可以人工录入的数据
 
 ### Phase 3：首批真实内容
 
