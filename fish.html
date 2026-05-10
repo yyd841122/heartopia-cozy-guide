@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fish Notes &mdash; Heartopia Cozy Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Heartopia Cozy Guide</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="beginner-guide.html">Beginner</a>
+        <a href="codes.html">Codes</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="fish.html" class="nav-active">Fish</a>
+        <a href="npc-gifts.html">NPC Gifts</a>
+        <a href="checklist.html">Checklist</a>
+        <a href="#">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Heartopia Fish Notes</h1>
+      <p class="hero-subtitle">A cozy MVP page for future fish locations, time windows, weather notes, rarity hints and collection tracking.</p>
+    </div>
+  </section>
+
+  <!-- ===== MVP STATUS BANNER ===== -->
+  <div class="mvp-banner">
+    <div class="container">
+      <p><strong>MVP preview:</strong> Fish rows on this page are sample placeholders only. Real fish data will be added after manual verification.</p>
+    </div>
+  </div>
+
+  <!-- ===== PAGE INTRO ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">About This Page</h2>
+      <p class="section-subtitle">This page is designed to become a searchable fish guide for Heartopia players. Future versions may include fish names, locations, time windows, weather conditions, rarity, value and collection notes.</p>
+    </div>
+  </section>
+
+  <!-- ===== FISH STATUS CARDS ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Fish Status Overview</h2>
+      <div class="cards-grid">
+        <div class="card status-card">
+          <h3>Fish Database</h3>
+          <p>A searchable collection of fish with key details for every catchable species.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Location Notes</h3>
+          <p>Detailed breakdown of which fish appear in ponds, rivers, coast and ocean areas.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Weather &amp; Time</h3>
+          <p>Notes on time windows and weather conditions that affect fish availability.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Collection Tracker</h3>
+          <p>Track which fish you have caught and which are still missing from your collection.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FISH SAMPLE TABLE + SEARCH ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Fish Sample Table</h2>
+      <p class="section-subtitle">All fish rows on this MVP page are sample placeholders for layout testing only. They are not verified Heartopia game data.</p>
+
+      <div class="search-box">
+        <input type="text" id="fish-search" data-table="fish-table" data-noresult="fish-no-result" placeholder="Search sample fish rows..." aria-label="Search fish">
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table" id="fish-table">
+          <thead>
+            <tr>
+              <th>Fish</th>
+              <th>Location</th>
+              <th>Time</th>
+              <th>Weather</th>
+              <th>Rarity</th>
+              <th>Status</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sample Pond Fish</td>
+              <td>Pond</td>
+              <td>Any</td>
+              <td>Any</td>
+              <td>Common</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample River Fish</td>
+              <td>River</td>
+              <td>Day</td>
+              <td>Clear</td>
+              <td>Common</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Coast Fish</td>
+              <td>Coast</td>
+              <td>Any</td>
+              <td>Any</td>
+              <td>Uncommon</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Rain Fish</td>
+              <td>River</td>
+              <td>Any</td>
+              <td>Rain</td>
+              <td>Rare</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Night Fish</td>
+              <td>Ocean</td>
+              <td>Night</td>
+              <td>Any</td>
+              <td>Uncommon</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="search-no-result" id="fish-no-result" style="display:none;">No fish rows match your search. Try a different term.</p>
+      <p class="footnote">Sample data for layout testing. No real Heartopia fish are listed here.</p>
+    </div>
+  </section>
+
+  <!-- ===== FUTURE PLAN ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Future Fish Guide Plan</h2>
+      <div class="future-list">
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Verified fish list</h3>
+            <p>Confirmed fish species with accurate names, locations and catch conditions.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Location filter</h3>
+            <p>Filter by pond, river, coast or ocean to focus on fish available in your current area.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Time and weather filter</h3>
+            <p>Search by time of day and weather condition to plan your fishing trips efficiently.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Rarity notes</h3>
+            <p>Understand which fish are common, uncommon or rare and plan your collection strategy.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Collection checklist</h3>
+            <p>An interactive checklist to track which fish you have caught and which remain.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Fishing route suggestions</h3>
+            <p>Suggested fishing routes that minimise travel time and maximise catch variety.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FISH DATA POLICY ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Fish Data Policy</h2>
+      <div class="data-policy">
+        <div class="policy-item">
+          <h3>No unverified data as fact</h3>
+          <p>No unverified real fish data will be published as fact on this site. All entries will be clearly marked with their verification status.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Manual verification required</h3>
+          <p>Fish locations, time windows and weather notes should be manually checked before inclusion. Automated scraping will not be used without human review.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Placeholder rows are layout-only</h3>
+          <p>Placeholder rows are only used to test layout and browsing functionality. They contain no real game data and should not be treated as accurate.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Separating confirmed data from tips</h3>
+          <p>Future updates may separate officially confirmed data from community-sourced tips, with clear labels for each category.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Are these real Heartopia fish?</summary>
+          <p>No. All fish rows currently on this page are sample placeholders used for layout testing. They do not represent real Heartopia fish data.</p>
+        </details>
+        <details class="faq-item">
+          <summary>When will verified fish data be added?</summary>
+          <p>Verified fish data will be added once each entry has been manually confirmed through in-game testing or reliable community sources. There is no set release date for the first verified batch.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I search fish on this page?</summary>
+          <p>Yes. A basic search box is available above the fish table. It filters rows by fish name, location or any visible text. This is a local browser-side filter only.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will this page include time and weather filters?</summary>
+          <p>Time and weather filtering is planned for a future update. The current MVP includes a simple text search. Category-based filters will be added once the database contains real data.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is this an official Heartopia fish database?</summary>
+          <p>No. This is an unofficial fan-made guide page. It is not affiliated with XD Games or the Heartopia development team.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Heartopia Cozy Guide</p>
+      <p class="footer-disclaimer">This is an unofficial fan-made guide site. Heartopia and related names belong to their respective owners. This site is not affiliated with or endorsed by XD Games.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

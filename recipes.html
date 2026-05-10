@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes Notes &mdash; Heartopia Cozy Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Heartopia Cozy Guide</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="beginner-guide.html">Beginner</a>
+        <a href="codes.html">Codes</a>
+        <a href="recipes.html" class="nav-active">Recipes</a>
+        <a href="fish.html">Fish</a>
+        <a href="npc-gifts.html">NPC Gifts</a>
+        <a href="checklist.html">Checklist</a>
+        <a href="#">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Heartopia Recipes Notes</h1>
+      <p class="hero-subtitle">A cozy MVP page for future recipe notes, ingredients, usage hints and cooking-related guide entries.</p>
+    </div>
+  </section>
+
+  <!-- ===== MVP STATUS BANNER ===== -->
+  <div class="mvp-banner">
+    <div class="container">
+      <p><strong>MVP preview:</strong> Recipe rows on this page are sample placeholders only. Real recipe data will be added after manual verification.</p>
+    </div>
+  </div>
+
+  <!-- ===== PAGE INTRO ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">About This Page</h2>
+      <p class="section-subtitle">This page is designed to become a searchable recipe database for Heartopia players. Future versions may include ingredients, unlock hints, usage notes, sell value, energy value and verification status.</p>
+    </div>
+  </section>
+
+  <!-- ===== RECIPE STATUS CARDS ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Recipe Status Overview</h2>
+      <div class="cards-grid">
+        <div class="card status-card">
+          <h3>Recipe Database</h3>
+          <p>A searchable collection of cooking recipes with ingredients and step-by-step notes.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Ingredient Notes</h3>
+          <p>Detailed breakdown of each ingredient including where to find and how to obtain them.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Cooking Tips</h3>
+          <p>Practical advice on cooking mechanics, energy management, and recipe unlocking order.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Verification Status</h3>
+          <p>Every recipe will be marked as verified or unverified so you know which data you can trust.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RECIPE SAMPLE TABLE + SEARCH ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Recipe Sample Table</h2>
+      <p class="section-subtitle">All recipe rows on this MVP page are sample placeholders for layout testing only. They are not verified Heartopia game data.</p>
+
+      <div class="search-box">
+        <input type="text" id="recipe-search" data-table="recipe-table" data-noresult="recipe-no-result" placeholder="Search sample recipe rows..." aria-label="Search recipes">
+      </div>
+
+      <div class="table-wrap">
+        <table class="recipe-table" id="recipe-table">
+          <thead>
+            <tr>
+              <th>Recipe</th>
+              <th>Ingredients</th>
+              <th>Use Case</th>
+              <th>Status</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sample Cozy Soup</td>
+              <td>Sample Veg, Water, Salt</td>
+              <td>Warm meal</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Fruit Snack</td>
+              <td>Sample Fruit x2</td>
+              <td>Quick energy</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Garden Plate</td>
+              <td>Sample Greens, Oil</td>
+              <td>Light meal</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Fisher Meal</td>
+              <td>Sample Fish, Rice</td>
+              <td>Hearty dish</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Sweet Treat</td>
+              <td>Sample Flour, Sugar, Berry</td>
+              <td>Dessert</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="search-no-result" id="recipe-no-result" style="display:none;">No recipe rows match your search. Try a different term.</p>
+      <p class="footnote">Sample data for layout testing. No real Heartopia recipes are listed here.</p>
+    </div>
+  </section>
+
+  <!-- ===== FUTURE PLAN ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Future Recipe Database Plan</h2>
+      <div class="future-list">
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Verified recipe list</h3>
+            <p>Confirmed recipes with accurate ingredient quantities and cooking method notes.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Ingredient filter</h3>
+            <p>Filter recipes by available ingredients so you can see what you can cook right now.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Unlock condition notes</h3>
+            <p>Notes on when and how each recipe becomes available through gameplay progression.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Cooking usage tips</h3>
+            <p>Practical tips on which recipes are best for energy, gifts, or daily requests.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Sell value and energy notes</h3>
+            <p>Reference data for recipe sell prices and energy restoration values.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Favorite recipe bookmarks</h3>
+            <p>Save your most-used recipes for quick access across visits.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RECIPE DATA POLICY ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Recipe Data Policy</h2>
+      <div class="data-policy">
+        <div class="policy-item">
+          <h3>No unverified data as fact</h3>
+          <p>No unverified real recipe data will be published as fact on this site. All entries will be clearly marked with their verification status.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Manual verification required</h3>
+          <p>Data should be manually checked before release. Automated scraping or bulk imports will not be used without human review.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Placeholder rows are layout-only</h3>
+          <p>Placeholder rows are only used to test layout and browsing functionality. They contain no real game data and should not be treated as accurate.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Community-sourced with attribution</h3>
+          <p>Future updates may cite official or community-confirmed sources where appropriate. Sources will be noted alongside each recipe entry.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Are these real Heartopia recipes?</summary>
+          <p>No. All recipe rows currently on this page are sample placeholders used for layout testing. They do not represent real Heartopia game recipes and should not be used as game reference.</p>
+        </details>
+        <details class="faq-item">
+          <summary>When will verified recipes be added?</summary>
+          <p>Verified recipe data will be added once each entry has been manually confirmed through in-game testing or reliable community sources. There is no set release date for the first verified batch.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I search recipes on this page?</summary>
+          <p>Yes. A basic search box is available above the recipe table. It filters rows by recipe name, ingredients, or any visible text. This is a local browser-side filter only.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will this page include ingredient filters?</summary>
+          <p>Ingredient-based filtering is planned for a future update. The current MVP includes a simple text search. Category and ingredient tag filters will be added once the database contains real data.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is this an official Heartopia database?</summary>
+          <p>No. This is an unofficial fan-made guide page. It is not affiliated with XD Games or the Heartopia development team.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Heartopia Cozy Guide</p>
+      <p class="footer-disclaimer">This is an unofficial fan-made guide site. Heartopia and related names belong to their respective owners. This site is not affiliated with or endorsed by XD Games.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

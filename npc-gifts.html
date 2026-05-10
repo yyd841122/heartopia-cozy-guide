@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPC Gift Notes &mdash; Heartopia Cozy Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Heartopia Cozy Guide</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="beginner-guide.html">Beginner</a>
+        <a href="codes.html">Codes</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="fish.html">Fish</a>
+        <a href="npc-gifts.html" class="nav-active">NPC Gifts</a>
+        <a href="checklist.html">Checklist</a>
+        <a href="#">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Heartopia NPC Gift Notes</h1>
+      <p class="hero-subtitle">A cozy MVP page for future NPC preferences, favorite gifts, friendship notes and relationship planning.</p>
+    </div>
+  </section>
+
+  <!-- ===== MVP STATUS BANNER ===== -->
+  <div class="mvp-banner">
+    <div class="container">
+      <p><strong>MVP preview:</strong> NPC gift rows on this page are sample placeholders only. Real gift data will be added after manual verification.</p>
+    </div>
+  </div>
+
+  <!-- ===== PAGE INTRO ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">About This Page</h2>
+      <p class="section-subtitle">This page is designed to become a searchable NPC gift guide for Heartopia players. Future versions may include NPC names, favorite gifts, disliked gifts, friendship notes, unlock hints and verification status.</p>
+    </div>
+  </section>
+
+  <!-- ===== NPC GIFT STATUS CARDS ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">NPC Gift Status Overview</h2>
+      <div class="cards-grid">
+        <div class="card status-card">
+          <h3>NPC Gift Database</h3>
+          <p>A searchable collection of NPC gift preferences with favorite, neutral and disliked items.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Favorite Gift Notes</h3>
+          <p>Learn which gifts each NPC loves most for maximum friendship points.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Friendship Planning</h3>
+          <p>Plan your daily interactions to build relationships efficiently across all NPCs.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+        <div class="card status-card">
+          <h3>Verification Status</h3>
+          <p>Track which NPC gift data has been manually confirmed and which is still placeholder.</p>
+          <span class="tag tag-preview">MVP Preview</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NPC GIFTS SAMPLE TABLE + SEARCH ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">NPC Gifts Sample Table</h2>
+      <p class="section-subtitle">All NPC gift rows on this MVP page are sample placeholders for layout testing only. They are not verified Heartopia game data.</p>
+
+      <div class="search-box">
+        <input type="text" id="npc-gifts-search" data-table="npc-gifts-table" data-noresult="npc-gifts-no-result" placeholder="Search sample NPC gift rows..." aria-label="Search NPC gifts">
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table" id="npc-gifts-table">
+          <thead>
+            <tr>
+              <th>NPC</th>
+              <th>Favorite Gift</th>
+              <th>Neutral Gift</th>
+              <th>Avoid</th>
+              <th>Friendship Note</th>
+              <th>Status</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sample Town Friend</td>
+              <td>Sample Flower</td>
+              <td>Sample Snack</td>
+              <td>Sample Trash</td>
+              <td>Loves flowers for morning visits.</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Garden Neighbor</td>
+              <td>Sample Snack</td>
+              <td>Sample Shell</td>
+              <td>Sample Bug</td>
+              <td>Enjoys snacks during afternoon chats.</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Fishing Buddy</td>
+              <td>Sample Craft Item</td>
+              <td>Sample Flower</td>
+              <td>Sample Junk</td>
+              <td>Appreciates handmade gifts after fishing.</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Cafe Visitor</td>
+              <td>Sample Tea</td>
+              <td>Sample Craft Item</td>
+              <td>Sample Spice</td>
+              <td>Prefers warm drinks during rainy days.</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+            <tr>
+              <td>Sample Crafting Mentor</td>
+              <td>Sample Shell</td>
+              <td>Sample Tea</td>
+              <td>Sample Food</td>
+              <td>Values rare materials for craft projects.</td>
+              <td><span class="status-placeholder">Placeholder</span></td>
+              <td>Not verified game data.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="search-no-result" id="npc-gifts-no-result" style="display:none;">No NPC gift rows match your search. Try a different term.</p>
+      <p class="footnote">Sample data for layout testing. No real Heartopia NPC gift data is listed here.</p>
+    </div>
+  </section>
+
+  <!-- ===== FUTURE PLAN ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Future NPC Gift Guide Plan</h2>
+      <div class="future-list">
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Verified NPC list</h3>
+            <p>Confirmed NPCs with accurate names, roles and gift preferences.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Favorite gift filter</h3>
+            <p>Filter gifts by love, like, neutral or dislike to find the best items quickly.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Friendship level notes</h3>
+            <p>Understand how different gift tiers affect friendship progression.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Gift source notes</h3>
+            <p>Where to find or craft each gift item, with gathering and crafting hints.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>Daily gift planning</h3>
+            <p>Plan which NPCs to visit each day with the most efficient gift routes.</p>
+          </div>
+        </div>
+        <div class="future-item">
+          <span class="future-icon"></span>
+          <div>
+            <h3>NPC route suggestions</h3>
+            <p>Suggested NPC visit sequences that minimise travel time and maximise friendship gains.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NPC GIFT DATA POLICY ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">NPC Gift Data Policy</h2>
+      <div class="data-policy">
+        <div class="policy-item">
+          <h3>No unverified data as fact</h3>
+          <p>No unverified real NPC gift data will be published as fact on this site. All entries will be clearly marked with their verification status.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Manual verification required</h3>
+          <p>NPC names, gift preferences and friendship notes should be manually checked before inclusion. Automated scraping will not be used without human review.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Placeholder rows are layout-only</h3>
+          <p>Placeholder rows are only used to test layout and browsing functionality. They contain no real game data and should not be treated as accurate.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Separating confirmed data from tips</h3>
+          <p>Future updates may separate officially confirmed data from community-sourced tips, with clear labels for each category.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Are these real Heartopia NPC gifts?</summary>
+          <p>No. All NPC gift rows currently on this page are sample placeholders used for layout testing. They do not represent real Heartopia NPC or gift data.</p>
+        </details>
+        <details class="faq-item">
+          <summary>When will verified NPC gift data be added?</summary>
+          <p>Verified NPC gift data will be added once each entry has been manually confirmed through in-game testing or reliable community sources. There is no set release date for the first verified batch.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I search NPC gifts on this page?</summary>
+          <p>Yes. A basic search box is available above the NPC gift table. It filters rows by NPC name, gift name or any visible text. This is a local browser-side filter only.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will this page include friendship level notes?</summary>
+          <p>Friendship level notes are planned for a future update. The current MVP includes a simple text search and placeholder data. Detailed tier information will be added once the database contains real data.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is this an official Heartopia NPC database?</summary>
+          <p>No. This is an unofficial fan-made guide page. It is not affiliated with XD Games or the Heartopia development team.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Heartopia Cozy Guide</p>
+      <p class="footer-disclaimer">This is an unofficial fan-made guide site. Heartopia and related names belong to their respective owners. This site is not affiliated with or endorsed by XD Games.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
