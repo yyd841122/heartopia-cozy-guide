@@ -21,6 +21,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `styles.css` &mdash; Shared styles
 - `script.js` &mdash; Small frontend interactions and table search
 - `README.md` &mdash; Project documentation
+- `docs/domain-launch-checklist.md` &mdash; Custom domain launch checklist and manual verification record
 
 ## How to Preview Locally
 
@@ -129,6 +130,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T021** &mdash; Improves mobile navigation labels and active state styling so NPC Gifts does not wrap awkwardly on small screens.
 - **T024** &mdash; Updates the project documentation with the official custom domain `https://cozyguidehub.com`, keeps the Cloudflare Pages URL as a backup, and records that both apex and www domains are active with SSL enabled.
 - **T026** &mdash; Updates page titles, meta descriptions, and footer site identity to use the official custom domain `https://cozyguidehub.com` while keeping the project clearly marked as a fan-made MVP.
+- **T028** &mdash; Adds a formal custom domain launch checklist under `docs/domain-launch-checklist.md`.
 
 ## Disclaimer
 
