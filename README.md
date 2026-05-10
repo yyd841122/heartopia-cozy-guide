@@ -117,6 +117,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T010** &mdash; Prepares the static MVP for GitHub and static hosting deployment by cleaning README structure, deployment notes, data policy, and public project scope.
 - **T014** &mdash; Fixes FAQ navigation links to point to `index.html#faq`, adds `id="faq"` to the homepage FAQ section, confirms Checklist links already point to the standalone `checklist.html`, adds a language selector UI preview (English / 中文 / Русский / Français / 日本語 / 한국어) in the navigation bar of all pages, and implements a lightweight localStorage-based language preference with a toast notification. No full translations are included.
 - **T017** &mdash; Fixes the language selector default state so English is shown by default while multilingual translation remains a preview-only feature. Validates localStorage values against the allowed language list, falls back to `en` for invalid or missing values, and shows the toast only when switching to a non-English language.
+- **T019** &mdash; Improves local desktop preview guidance and mobile navigation readability with responsive nav behavior, table readability checks, and language selector preservation.
 
 ## Disclaimer
 

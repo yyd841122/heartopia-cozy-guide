@@ -921,6 +921,30 @@ a:hover {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
+  .header-inner {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .main-nav {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .main-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .language-wrapper {
+    margin-left: auto;
+  }
+
   .hero {
     padding: 48px 0 40px;
   }
@@ -958,11 +982,6 @@ a:hover {
 
   .db-grid {
     grid-template-columns: 1fr;
-  }
-
-  .header-inner {
-    flex-direction: column;
-    align-items: flex-start;
   }
 }
 
