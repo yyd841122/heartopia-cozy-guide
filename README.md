@@ -128,6 +128,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T019** &mdash; Improves local desktop preview guidance and mobile navigation readability with responsive nav behavior, table readability checks, and language selector preservation.
 - **T021** &mdash; Improves mobile navigation labels and active state styling so NPC Gifts does not wrap awkwardly on small screens.
 - **T024** &mdash; Updates the project documentation with the official custom domain `https://cozyguidehub.com`, keeps the Cloudflare Pages URL as a backup, and records that both apex and www domains are active with SSL enabled.
+- **T026** &mdash; Updates page titles, meta descriptions, and footer site identity to use the official custom domain `https://cozyguidehub.com` while keeping the project clearly marked as a fan-made MVP.
 
 ## Disclaimer
 

@@ -912,7 +912,22 @@ a:hover {
   font-size: 1rem;
   font-weight: 700;
   color: #E0E6EA;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+}
+
+.footer-site {
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+  color: #C0D0D8;
+}
+
+.footer-site a {
+  color: #6ABF8A;
+  text-decoration: none;
+}
+
+.footer-site a:hover {
+  text-decoration: underline;
 }
 
 .footer-disclaimer {
