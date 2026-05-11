@@ -36,6 +36,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/week-1-community-distribution-plan.md` &mdash; First week community distribution execution plan for testing traffic acquisition.
 - `docs/reddit-discord-reply-drafts-batch-1.md` &mdash; First batch of Reddit and Discord reply drafts for ethical community distribution.
 - `docs/chinese-social-content-drafts-batch-1.md` &mdash; First batch of Chinese social content drafts for Xiaohongshu, Bilibili, Douyin, and private sharing.
+- `docs/real-player-question-research-plan.md` &mdash; Research plan and question pool template for finding real player questions before community replies.
 
 ## Sample Data Files
 
@@ -184,6 +185,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T075** &mdash; Adds the first week community distribution execution plan for testing early traffic acquisition through real community questions and careful link usage.
 - **T077** &mdash; Adds the first Reddit and Discord reply draft batch for careful, non-spam community distribution.
 - **T079** &mdash; Adds the first Chinese social content draft batch for Xiaohongshu, Bilibili, Douyin, and private sharing.
+- **T081** &mdash; Adds the real player question research plan and question pool template, explicitly avoiding fabricated community questions or feedback.
 
 ## Disclaimer
 
