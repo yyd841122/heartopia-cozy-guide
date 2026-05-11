@@ -125,6 +125,7 @@ Data entry templates should be used before any real candidate data is moved into
 Traffic acquisition is now a core priority. After SEO Phase 1 and data governance setup, the project should prioritize traffic entry pages, community distribution, and returning-user tools.
 
 - T054 制定第一批流量入口页面计划
+- T056 设计 P0 入口页面 URL 与内容结构（Beginner Guide、First Day Guide、Codes Tracker、Daily Checklist）
 
 ### Phase 3：首批真实内容
 
