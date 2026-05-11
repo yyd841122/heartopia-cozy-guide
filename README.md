@@ -31,6 +31,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/traffic-entry-page-plan.md` &mdash; First traffic entry page plan for SEO, community distribution, and returning-user loops.
 - `docs/p0-entry-page-url-content-structure.md` &mdash; URL and content structure design for the first P0 traffic entry pages.
 - `docs/p0-page-implementation-task-breakdown.md` &mdash; Implementation task breakdown for the first P0 traffic entry pages.
+- `docs/p0-live-verification-record.md` &mdash; Live verification record for P0 traffic entry pages after deployment on cozyguidehub.com.
 
 ## Sample Data Files
 
@@ -174,6 +175,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T064** &mdash; Strengthens codes.html into a more trustworthy Codes Tracker with no verified active codes state, verification policy, last-checked status, and clear unverified-code boundaries.
 - **T066** &mdash; Strengthens checklist.html into a stronger Daily Checklist traffic entry page with general planning tips, verified-task boundaries, related links, and a future save-feature note.
 - **T068** &mdash; Updates P0 page internal links and entry paths across Home, Beginner Guide, First Day Guide, Codes Tracker, and Daily Checklist. Hero buttons linked to real pages, card headings made clickable, steps sections enriched with direct links, related pages button styles unified, codes tag corrected to MVP Preview, and quick link bar added below home page cards.
+- **T071** &mdash; Records the live verification results for P0 traffic entry pages after deployment on cozyguidehub.com, confirming page availability, sitemap and robots status, meta tags, internal links, and safety boundaries.
 
 ## Disclaimer
 

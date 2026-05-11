@@ -132,6 +132,7 @@ Traffic acquisition is now a core priority. After SEO Phase 1 and data governanc
 - T064 强化 Codes Tracker 为可信 P0 流量入口页面，避免假码，保持未验证提示与已验证活动码的明确分离
 - T066 强化 Daily Checklist 为 P0 流量入口页面，分离通用规划建议与已验证游戏任务，避免未验证游戏事实
 - T068 统一更新 P0 页面之间的内部链接和入口路径：首页英雄按钮修复、卡片标题可点击、步骤区增加直接链接、Related Pages 按钮样式统一、codes 标签修正、首页底部增加快速链接栏
+- T071 创建 P0 线上验证记录，归档正式域名部署后的页面访问状态、sitemap/robots 状态、meta 标签、内部链接和安全边界验证结果
 
 ### Phase 3：首批真实内容
 
