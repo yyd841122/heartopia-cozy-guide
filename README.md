@@ -170,6 +170,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T056** &mdash; Designs URL and content structure for the first P0 traffic entry pages (Beginner Guide, First Day Guide, Codes Tracker, Daily Checklist).
 - **T058** &mdash; Creates the implementation task breakdown for the first P0 traffic entry pages before modifying user-facing pages.
 - **T060** &mdash; Upgrades beginner-guide.html into a stronger P0 traffic entry page with beginner-safe guidance, related links, and clear unverified-data boundaries.
+- **T062** &mdash; Creates first-day-guide.html as a P0 traffic entry page with general first-day guidance, clear unverified-data boundaries, and internal links.
 
 ## Disclaimer
 
