@@ -173,6 +173,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T062** &mdash; Creates first-day-guide.html as a P0 traffic entry page with general first-day guidance, clear unverified-data boundaries, and internal links.
 - **T064** &mdash; Strengthens codes.html into a more trustworthy Codes Tracker with no verified active codes state, verification policy, last-checked status, and clear unverified-code boundaries.
 - **T066** &mdash; Strengthens checklist.html into a stronger Daily Checklist traffic entry page with general planning tips, verified-task boundaries, related links, and a future save-feature note.
+- **T068** &mdash; Updates P0 page internal links and entry paths across Home, Beginner Guide, First Day Guide, Codes Tracker, and Daily Checklist. Hero buttons linked to real pages, card headings made clickable, steps sections enriched with direct links, related pages button styles unified, codes tag corrected to MVP Preview, and quick link bar added below home page cards.
 
 ## Disclaimer
 
