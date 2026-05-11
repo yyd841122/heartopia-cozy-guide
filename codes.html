@@ -48,7 +48,7 @@
   <section class="hero">
     <div class="container hero-content">
       <h1>Heartopia Codes Tracker</h1>
-      <p class="hero-subtitle">A safe MVP page for tracking Heartopia codes, manual verification status, redeem steps and future code updates.</p>
+      <p class="hero-subtitle">A fan-made Heartopia codes tracker that only publishes verified active codes, keeps unverified tips clearly separate, and honestly states when no codes have been confirmed yet.</p>
     </div>
   </section>
 
@@ -59,48 +59,52 @@
     </div>
   </div>
 
-  <!-- ===== EMPTY STATE ===== -->
+  <!-- ===== CURRENT VERIFIED CODES ===== -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">Active Codes</h2>
+      <h2 class="section-title">Current Verified Codes</h2>
       <div class="empty-state">
         <p class="empty-state-title">No verified active codes yet</p>
-        <p class="empty-state-desc">We do not publish unverified or fake codes. This page is prepared as a tracker template. Verified codes will be added only after manual checking.</p>
+        <p class="empty-state-desc">We do not publish unverified or fake codes on this page. Verified codes will be added only after manual checking. Unverified community tips are never shown as active.</p>
       </div>
     </div>
   </section>
 
-  <!-- ===== FUTURE CODES TABLE ===== -->
+  <!-- ===== CODE VERIFICATION POLICY ===== -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">Future Codes Table</h2>
-      <p class="section-subtitle">This table will display verified codes once they are manually confirmed. No placeholder or fake codes are listed here.</p>
-
-      <div class="table-wrap">
-        <table class="data-table" id="codes-table">
-          <thead>
-            <tr>
-              <th>Code</th>
-              <th>Reward</th>
-              <th>Status</th>
-              <th>Last Checked</th>
-              <th>Source Note</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td colspan="5" class="empty-row">No verified code available yet.</td>
-            </tr>
-          </tbody>
-        </table>
+      <h2 class="section-title">How Code Verification Works</h2>
+      <p class="section-subtitle">This tracker follows a strict verification process to keep code information reliable and avoid spreading unconfirmed codes.</p>
+      <div class="data-policy">
+        <div class="policy-item">
+          <h3>Only verified codes are listed as active</h3>
+          <p>No fake or unverified codes will be published as active on this page. All entries are clearly marked with their verification status.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Each code requires a last checked date</h3>
+          <p>Every published code includes a last checked date so visitors know how recent the verification is. Codes without a recent check are not listed as active.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Expired codes move to archive</h3>
+          <p>Expired codes are removed from active status and placed in the archive section for historical reference, clearly marked as expired.</p>
+        </div>
+        <div class="policy-item">
+          <h3>Community tips stay unverified until checked</h3>
+          <p>Community-sourced code tips are clearly marked as unverified until manually tested. Unverified codes are never shown as active or recommended.</p>
+        </div>
+        <div class="policy-item">
+          <h3>No codes are invented for SEO</h3>
+          <p>This site does not invent or fabricate codes to attract traffic. All published codes must come from real sources and pass manual verification.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== CODE STATUS EXPLANATION ===== -->
+  <!-- ===== CODE STATUS MEANING ===== -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">Code Status Meaning</h2>
+      <h2 class="section-title">Code Status Reference</h2>
+      <p class="section-subtitle">Each code on this tracker follows one of these statuses. This keeps the information clear and honest.</p>
       <div class="cards-grid code-status-grid">
         <div class="card code-status">
           <h3>Active</h3>
@@ -108,11 +112,11 @@
         </div>
         <div class="card code-status">
           <h3>Expired</h3>
-          <p>A code that no longer works. Expired codes may remain visible if they are useful for historical reference.</p>
+          <p>A code that no longer works. Expired codes remain visible in the archive for historical reference only.</p>
         </div>
         <div class="card code-status">
           <h3>Unknown</h3>
-          <p>A code reported by community sources that has not yet been manually checked. Do not rely on unknown-status codes.</p>
+          <p>A code reported by community sources that has not yet been manually checked. Unknown codes are never shown as active.</p>
         </div>
         <div class="card code-status">
           <h3>Checking</h3>
@@ -125,8 +129,8 @@
   <!-- ===== HOW TO REDEEM ===== -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">How Code Redemption Will Be Documented</h2>
-      <p class="section-subtitle">Future versions will include verified redemption steps after the process is manually checked in game or confirmed through reliable sources.</p>
+      <h2 class="section-title">How to Redeem Codes</h2>
+      <p class="section-subtitle">Code redemption steps may vary by game version or platform. The following are general guidelines that will be updated with verified details.</p>
 
       <div class="steps-list">
         <div class="step">
@@ -166,81 +170,126 @@
         </div>
       </div>
 
-      <p class="footnote">These are generic placeholder steps and should be replaced with verified instructions later.</p>
+      <p class="footnote">These are placeholder steps. Verified redemption instructions will be added after manual checking.</p>
     </div>
   </section>
 
-  <!-- ===== VERIFICATION POLICY ===== -->
+  <!-- ===== EXPIRED CODES ARCHIVE ===== -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">How We Verify Codes</h2>
-      <div class="data-policy">
-        <div class="policy-item">
-          <h3>No fake or unverified codes</h3>
-          <p>No fake or unverified codes will be published on this page. All entries will be clearly marked with their verification status.</p>
+      <h2 class="section-title">Expired Codes Archive</h2>
+      <p class="section-subtitle">No verified expired codes are archived yet. Expired codes will only be archived after they were previously verified or reliably reported.</p>
+      <div class="empty-state">
+        <p class="empty-state-title">No expired codes archived</p>
+        <p class="empty-state-desc">Unverified codes will not be moved into the archive as if they were real. The archive will only include codes that were confirmed to have been valid at some point.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LAST CHECKED ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Last Checked</h2>
+      <p class="section-subtitle">The last time this page was checked for code updates.</p>
+      <div class="empty-state">
+        <p class="empty-state-title">Manual verification pending</p>
+        <p class="empty-state-desc">No codes have been verified yet. The last checked status will be updated once the first manual verification is completed and active codes are confirmed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHERE UPDATES COME FROM ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Where Updates May Come From</h2>
+      <p class="section-subtitle">Code updates may come from a variety of sources. Community reports are treated as unverified until checked.</p>
+      <div class="cards-grid" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));">
+        <div class="card code-status">
+          <h3>Official Announcements</h3>
+          <p>Codes released through official Heartopia social media, events, or patch notes.</p>
         </div>
-        <div class="policy-item">
-          <h3>Last checked date required</h3>
-          <p>Each published code should include a last checked date so visitors know how recent the verification is.</p>
+        <div class="card code-status">
+          <h3>In-Game Notices</h3>
+          <p>Promotional codes found inside the game client or through in-game events.</p>
         </div>
-        <div class="policy-item">
-          <h3>Expired codes for history</h3>
-          <p>Expired codes may remain visible only if they are useful for historical reference, clearly marked as expired.</p>
+        <div class="card code-status">
+          <h3>Community Reports</h3>
+          <p>Codes shared by players that require manual verification before being added as active.</p>
         </div>
-        <div class="policy-item">
-          <h3>Community tips marked unverified</h3>
-          <p>Community-sourced code tips must be clearly marked as unverified until they have been manually checked.</p>
+        <div class="card code-status">
+          <h3>Manual Checks</h3>
+          <p>Direct testing of reported codes to confirm they are still working and providing the listed rewards.</p>
+        </div>
+        <div class="card code-status">
+          <h3>Player Corrections</h3>
+          <p>Reports from players about expired or incorrect codes that help keep the tracker accurate.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== FUTURE PLAN ===== -->
+  <!-- ===== REPORT A CODE ===== -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">Future Codes Page Plan</h2>
-      <div class="future-list">
-        <div class="future-item">
-          <span class="future-icon"></span>
-          <div>
-            <h3>Verified active codes</h3>
-            <p>A regularly updated list of manually verified working codes with rewards.</p>
-          </div>
+      <h2 class="section-title">Report a Code or Correction</h2>
+      <p class="section-subtitle">This page is maintained manually. Contributions and correction reports are welcome.</p>
+      <div class="data-policy">
+        <div class="policy-item">
+          <h3>Code tips</h3>
+          <p>Share a code you found. Please include the code string, reward description, source, and date found. It will remain unverified until checked.</p>
         </div>
-        <div class="future-item">
-          <span class="future-icon"></span>
-          <div>
-            <h3>Expired code archive</h3>
-            <p>Historical record of expired codes for reference and tracking purposes.</p>
-          </div>
+        <div class="policy-item">
+          <h3>Expired code reports</h3>
+          <p>Let us know if a verified code no longer works so it can be moved to the expired archive.</p>
         </div>
-        <div class="future-item">
-          <span class="future-icon"></span>
-          <div>
-            <h3>Copy button for verified codes</h3>
-            <p>One-click copy function for verified codes to make redemption easier.</p>
-          </div>
+        <div class="policy-item">
+          <h3>Correction suggestions</h3>
+          <p>Report incorrect reward information, wrong status, or missing details about any listed code.</p>
         </div>
-        <div class="future-item">
-          <span class="future-icon"></span>
-          <div>
-            <h3>Last checked date</h3>
-            <p>Each published code will show when it was last verified to indicate freshness.</p>
-          </div>
+        <div class="policy-item">
+          <h3>Source notes</h3>
+          <p>Include where the code was originally found: official announcement, community post, or in-game notice.</p>
         </div>
-        <div class="future-item">
-          <span class="future-icon"></span>
-          <div>
-            <h3>Source notes</h3>
-            <p>Where each code was found or reported, with attribution where appropriate.</p>
-          </div>
+      </div>
+      <p class="footnote">For now, reports should be collected manually before a feedback form is added.</p>
+    </div>
+  </section>
+
+  <!-- ===== RELATED PAGES ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Related Pages</h2>
+      <p class="section-subtitle">Explore other fan-made Heartopia guides and resources.</p>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Beginner Guide</h3>
+          <p>A general guide for new players, covering first steps and common questions.</p>
+          <a href="beginner-guide.html" class="tag tag-preview">View Guide</a>
         </div>
-        <div class="future-item">
-          <span class="future-icon"></span>
-          <div>
-            <h3>Update log</h3>
-            <p>A changelog showing when codes were added, updated or expired.</p>
-          </div>
+        <div class="card">
+          <h3>First Day Guide</h3>
+          <p>A dedicated first-session walkthrough for Heartopia new players.</p>
+          <a href="first-day-guide.html" class="tag tag-preview">View Guide</a>
+        </div>
+        <div class="card">
+          <h3>Daily Checklist</h3>
+          <p>A general daily routine checklist for Heartopia players.</p>
+          <a href="checklist.html" class="tag tag-preview">View Checklist</a>
+        </div>
+        <div class="card">
+          <h3>Recipe Notes</h3>
+          <p>Recipe reference with placeholder data pending verification.</p>
+          <a href="recipes.html" class="tag tag-preview">View Recipes</a>
+        </div>
+        <div class="card">
+          <h3>Fish Notes</h3>
+          <p>Fish reference with placeholder data pending verification.</p>
+          <a href="fish.html" class="tag tag-preview">View Fish</a>
+        </div>
+        <div class="card">
+          <h3>NPC Gift Notes</h3>
+          <p>NPC gift preferences with placeholder data pending verification.</p>
+          <a href="npc-gifts.html" class="tag tag-preview">View NPC Gifts</a>
         </div>
       </div>
     </div>
@@ -252,24 +301,28 @@
       <h2 class="section-title">Frequently Asked Questions</h2>
       <div class="faq-list">
         <details class="faq-item">
-          <summary>Are there any verified Heartopia codes here?</summary>
+          <summary>Are there any verified active Heartopia codes?</summary>
           <p>Not yet. This page does not currently contain any verified codes. Only manually confirmed codes will be published once they become available.</p>
         </details>
         <details class="faq-item">
-          <summary>Why is the codes table empty?</summary>
-          <p>The codes table is intentionally empty because we do not publish unverified or fake codes. Verified entries will appear here once manual checking is complete.</p>
+          <summary>Why are there no codes listed here?</summary>
+          <p>Because we only publish codes after manual verification. No verified codes are available at this time, so the codes section remains empty rather than showing unconfirmed entries.</p>
         </details>
         <details class="faq-item">
-          <summary>Will fake or unverified codes be published?</summary>
-          <p>No. We will never publish fake codes or codes that have not been manually verified. Any community tips will be clearly marked until checked.</p>
+          <summary>Do you publish unverified codes?</summary>
+          <p>No. Unverified codes are never shown as active. If community tips are shared, they will be clearly marked as unverified until manually checked. This helps prevent confusion from fake or expired codes.</p>
         </details>
         <details class="faq-item">
-          <summary>How often will this page be updated?</summary>
-          <p>There is no fixed update schedule. Codes will be added, updated or removed as manual verification is performed. Check back periodically for changes.</p>
+          <summary>How often is this page checked?</summary>
+          <p>There is no fixed update schedule. Codes will be added, updated or removed as manual verification is performed. The last checked date will be displayed prominently when available.</p>
         </details>
         <details class="faq-item">
           <summary>Is this an official Heartopia codes page?</summary>
           <p>No. This is an unofficial fan-made guide page. It is not affiliated with XD Games or the Heartopia development team.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Where should beginners go next?</summary>
+          <p>New players may find the <a href="beginner-guide.html">Beginner Guide</a> and <a href="first-day-guide.html">First Day Guide</a> helpful. The <a href="checklist.html">Daily Checklist</a> is also a good reference for building a daily routine.</p>
         </details>
       </div>
     </div>

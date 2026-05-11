@@ -129,6 +129,7 @@ Traffic acquisition is now a core priority. After SEO Phase 1 and data governanc
 - T058 创建 P0 页面落地任务拆解（Beginner Guide、First Day Guide、Codes Tracker、Daily Checklist、sitemap、meta、内部链接、社区分发记录）
 - T060 升级 Beginner Guide 为第一条 P0 流量入口页面，保持未验证数据与已确认内容的明确分离
 - T062 创建 First Day Guide 为新的 P0 流量入口页面，从现有新手引导入口添加内部链接，同时避免未验证游戏事实
+- T064 强化 Codes Tracker 为可信 P0 流量入口页面，避免假码，保持未验证提示与已验证活动码的明确分离
 
 ### Phase 3：首批真实内容
 
