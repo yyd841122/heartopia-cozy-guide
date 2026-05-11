@@ -39,6 +39,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/real-player-question-research-plan.md` &mdash; Research plan and question pool template for finding real player questions before community replies.
 - `docs/real-player-questions-collected-batch-1.md` &mdash; First batch of real public player questions collected from public web research.
 - `docs/selected-low-risk-questions-batch-1.md` &mdash; Selection record for 3 low-risk real player questions from Batch 1.
+- `docs/final-replies-for-selected-questions-batch-1.md` &mdash; Final reply drafts for 3 selected low-risk real player questions from Batch 1.
 
 ## Sample Data Files
 
@@ -190,6 +191,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T081** &mdash; Adds the real player question research plan and question pool template, explicitly avoiding fabricated community questions or feedback.
 - **T083** &mdash; Collects the first batch of real public player questions through public web research without fabricating questions, feedback, or clicks.
 - **T085** &mdash; Selects 3 low-risk real player questions from Batch 1 for safe reply preparation without fabricating questions or facts.
+- **T087** &mdash; Prepares final reply drafts for 3 selected low-risk real player questions without posting, fabricating feedback, or adding unverified facts.
 
 ## Disclaimer
 
