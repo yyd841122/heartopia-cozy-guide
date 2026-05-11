@@ -122,6 +122,10 @@ Data entry templates should be used before any real candidate data is moved into
 - T052 创建真实数据录入模板
 - T053 选择第一类可以人工录入的数据
 
+Traffic acquisition is now a core priority. After SEO Phase 1 and data governance setup, the project should prioritize traffic entry pages, community distribution, and returning-user tools.
+
+- T054 制定第一批流量入口页面计划
+
 ### Phase 3：首批真实内容
 
 建议任务：
