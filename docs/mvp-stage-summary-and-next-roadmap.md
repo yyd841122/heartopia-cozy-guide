@@ -136,6 +136,7 @@ Traffic acquisition is now a core priority. After SEO Phase 1 and data governanc
 - T073 创建社区分发记录表，用于跟踪 Reddit / Discord / YouTube / 小红书 / B站 / 抖音等平台的引流动作、用户问题、回复内容、链接使用和反馈结果
 - T075 创建第一周社区分发执行计划，用于指导第一周通过真实社区问题、谨慎回复、链接使用和反馈跟踪进行流量获取测试
 - T077 准备第一批 Reddit / Discord 英文回复草稿，优先回答真实玩家问题，仅在必要时附链接，保持 fan-made / unverified 边界清晰
+- T079 准备第一批中文社媒图文草稿（小红书 / B站 / 抖音 / 朋友圈），保持 fan-made / 非官方 / 未验证边界清晰
 
 ### Phase 3：首批真实内容
 
