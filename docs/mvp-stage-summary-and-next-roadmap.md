@@ -138,6 +138,7 @@ Traffic acquisition is now a core priority. After SEO Phase 1 and data governanc
 - T077 准备第一批 Reddit / Discord 英文回复草稿，优先回答真实玩家问题，仅在必要时附链接，保持 fan-made / unverified 边界清晰
 - T079 准备第一批中文社媒图文草稿（小红书 / B站 / 抖音 / 朋友圈），保持 fan-made / 非官方 / 未验证边界清晰
 - T081 创建真实玩家问题寻找方法与问题池模板，建立搜索关键词清单、10 个问题池槽位、3 个低风险筛选槽位，明确禁止编造问题或伪造反馈
+- T083 通过公开网页搜索收集第一批真实玩家问题（中文为主，英文平台不可达），记录来源、分类风险、筛选候选回复问题
 
 ### Phase 3：首批真实内容
 
