@@ -34,6 +34,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/p0-live-verification-record.md` &mdash; Live verification record for P0 traffic entry pages after deployment on cozyguidehub.com.
 - `docs/community-distribution-tracker.md` &mdash; Community distribution tracker for recording traffic tests, replies, links, and feedback.
 - `docs/week-1-community-distribution-plan.md` &mdash; First week community distribution execution plan for testing traffic acquisition.
+- `docs/reddit-discord-reply-drafts-batch-1.md` &mdash; First batch of Reddit and Discord reply drafts for ethical community distribution.
 
 ## Sample Data Files
 
@@ -180,6 +181,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T071** &mdash; Records the live verification results for P0 traffic entry pages after deployment on cozyguidehub.com, confirming page availability, sitemap and robots status, meta tags, internal links, and safety boundaries.
 - **T073** &mdash; Adds the community distribution tracker to support the first traffic acquisition experiments.
 - **T075** &mdash; Adds the first week community distribution execution plan for testing early traffic acquisition through real community questions and careful link usage.
+- **T077** &mdash; Adds the first Reddit and Discord reply draft batch for careful, non-spam community distribution.
 
 ## Disclaimer
 
