@@ -41,6 +41,7 @@ This is an early MVP. It uses sample placeholder data only and does not include 
 - `docs/selected-low-risk-questions-batch-1.md` &mdash; Selection record for 3 low-risk real player questions from Batch 1.
 - `docs/final-replies-for-selected-questions-batch-1.md` &mdash; Final reply drafts for 3 selected low-risk real player questions from Batch 1.
 - `docs/first-community-reply-execution-checklist.md` &mdash; Execution checklist for the first community reply round.
+- `docs/first-manual-community-reply-package.md` &mdash; Manual execution package for the first community reply.
 
 ## Sample Data Files
 
@@ -194,6 +195,7 @@ T009 checked navigation, active states, placeholder warnings, search behavior, f
 - **T085** &mdash; Selects 3 low-risk real player questions from Batch 1 for safe reply preparation without fabricating questions or facts.
 - **T087** &mdash; Prepares final reply drafts for 3 selected low-risk real player questions without posting, fabricating feedback, or adding unverified facts.
 - **T089** &mdash; Adds the first community reply execution checklist to ensure replies are manual, non-spam, relevant, and safely recorded.
+- **T091** &mdash; Prepares the first manual community reply package without posting, fabricating feedback, or modifying site files.
 
 ## Disclaimer
 

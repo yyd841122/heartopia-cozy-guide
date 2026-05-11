@@ -142,6 +142,7 @@ Traffic acquisition is now a core priority. After SEO Phase 1 and data governanc
 - T085 从 Batch 1 中筛选 3 个低风险玩家问题（First Day / Beginner / Codes），优先选择可以通过通用建议和 P0 页面安全回答的问题，避免编造未验证游戏事实
 - T087 为 Batch 1 中 3 个选中低风险玩家问题准备最终回复草稿，每条回复先回答问题再谨慎使用链接，保持 fan-made / 非官方 / 未验证边界清晰
 - T089 创建第一轮社区回复执行检查清单，定义发布前检查、每个问题的安全检查、执行顺序、停止条件和记录要求，确保实际执行前已经过完整审核
+- T091 准备第一条社区回复人工执行包（S1 / Q08 First Day），提供无链接版和带链接版回复草稿、发布前检查、发布后记录模板和停止条件，未实际发布
 
 ### Phase 3：首批真实内容
 
