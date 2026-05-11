@@ -126,6 +126,7 @@ Traffic acquisition is now a core priority. After SEO Phase 1 and data governanc
 
 - T054 制定第一批流量入口页面计划
 - T056 设计 P0 入口页面 URL 与内容结构（Beginner Guide、First Day Guide、Codes Tracker、Daily Checklist）
+- T058 创建 P0 页面落地任务拆解（Beginner Guide、First Day Guide、Codes Tracker、Daily Checklist、sitemap、meta、内部链接、社区分发记录）
 
 ### Phase 3：首批真实内容
 
